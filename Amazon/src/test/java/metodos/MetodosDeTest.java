@@ -50,11 +50,17 @@ public class MetodosDeTest {
 	 * Metodo para clicar
 	 * 
 	 * @autor Marcelo Messias
-	 * @param elemnto
+	 * @param elemento
 	 */
 	public void clicar(By elemento) {
 		driver.findElement(elemento).click();
 	}
+	
+	/**
+	 * Metodo fechar navegador
+	 * @autor Marcelo Messias
+	 * @param quit.
+	 */
 
 	public void fecharNavegador() {
 		driver.quit();
